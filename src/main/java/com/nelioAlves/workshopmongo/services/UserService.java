@@ -1,4 +1,4 @@
-package com.nelioAlves.workshopmongo.repository.services;
+package com.nelioAlves.workshopmongo.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.nelioAlves.workshopmongo.domain.User;
 import com.nelioAlves.workshopmongo.dto.UserDTO;
 import com.nelioAlves.workshopmongo.repository.UserRepository;
-import com.nelioAlves.workshopmongo.repository.services.exception.ObjectNotFoundException;
+import com.nelioAlves.workshopmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {

@@ -11,7 +11,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.nelioAlves.workshopmongo.domain.User;
 import com.nelioAlves.workshopmongo.dto.UserDTO;
-import com.nelioAlves.workshopmongo.repository.services.UserService;
+import com.nelioAlves.workshopmongo.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
